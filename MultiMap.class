@@ -1,0 +1,15 @@
+package com.andreworals.phone;
+
+import java.util.*;
+
+protected class MultiMap {
+
+    private HashMap<Object, Object>[] maps;
+
+    MultiMap(int indices) {
+        maps = new HashMap<Object, Object>[indices];
+    }
+
+    public void add()
+
+}
