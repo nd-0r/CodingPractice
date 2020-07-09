@@ -1,0 +1,30 @@
+// Method 1: check for every number between 1 and the questionable prime to ensure that the prime in question is only divisible by 1 and itself:
+
+for(int i = 2; i < num; i ++) {
+    if(num % i == 0) return false;
+}
+return true;
+
+// Method 2: since a number divisible by two also must be divisible by (n / 2), then not all the numbers actually NEED to be checked.
+
+for(int i = 2; 2*i < num; i ++) {
+    if(num % i == 0) return false;
+}
+return true;
+
+// Method 3: really, the divisors need only be checked up to the square root of n.  Since 2 is the odd one and because of the aforementioned, 2 can be 
+// checked individually, and then only the odds up to the square root of num.  
+
+//checks whether an int is prime or not.
+boolean isPrime(int n) {
+    //check if n is a multiple of 2
+    if (n%2==0) return false;
+    //if not, then just check the odds
+    for(int i=3;i*i<=n;i+=2) {
+        if(n%i==0)
+            return false;
+    }
+    return true;
+}
+
+// really, this code checks half the numbers as the original only up to the square root of the prime in question.  Much faster.
