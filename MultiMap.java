@@ -1,5 +1,3 @@
-package phone;
-
 import java.util.*;
 
 public class MultiMap {
