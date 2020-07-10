@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class MultiMap {
+public class MultiMap<K, V> {
 
-    private HashMap<Object, Object>[] maps;
+    private HashMap<K, V>[] maps;
 
     MultiMap(int indices) {
         
@@ -10,7 +10,7 @@ public class MultiMap {
 
     }
 
-    public void add(int index, Object key, Object value) {
+    public void add(int index, K key, V value) {
 
         for(int i = 0; i < maps.length; i ++) {
             if(i == index) {
@@ -22,7 +22,7 @@ public class MultiMap {
 
     }
 
-    public Object get(Object key) {
+    public V get(K key) {
         
         for(int i = 0; i < maps.length; i ++) {
             if(maps[i].containsKey(key)) {
