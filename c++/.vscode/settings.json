@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.md": "markdown-preview-enhanced",
+        "iostream": "cpp"
+    }
+}
