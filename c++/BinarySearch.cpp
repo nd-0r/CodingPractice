@@ -11,10 +11,13 @@ bool isPrimeHelper(vector<int> primes, int target, int start, int end)
     int i = (start + end) / 2;
     int current = primes[i];
     if (current ==  target) {
+        cout << "here\n";
         return true;
     } else if (current < target) {
+        cout << "here\n";
         return isPrimeHelper(primes, target, i + 1, end);
     }
+    cout << "here\n";
     return isPrimeHelper(primes, target, start, i);
 }
 
