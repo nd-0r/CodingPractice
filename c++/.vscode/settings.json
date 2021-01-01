@@ -1,6 +1,11 @@
 {
     "files.associations": {
-        "*.md": "markdown-preview-enhanced",
-        "iostream": "cpp"
+      "*.md": "markdown-preview-enhanced",
+      "iostream": "cpp",
+      "array": "cpp",
+      "string_view": "cpp",
+      "initializer_list": "cpp",
+      "ranges": "cpp",
+      "utility": "cpp"
     }
 }
