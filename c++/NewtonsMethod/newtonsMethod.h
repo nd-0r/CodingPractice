@@ -1,7 +1,5 @@
 # include <vector>
 # include <math.h>
-# include <iostream>
-# include <string>
 
 # ifndef NEWTONSMETHOD
 # define NEWTONSMETHOD
