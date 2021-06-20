@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/andreworals/Documents/Dev/CodingPractice/c++
+Processing: BinarySearch
+Processing: ClimbingLeaderboard
+Processing: MakeBox
+Processing: NonDivisibleSubset
+Processing: QuickSort
+Processing: TruncatablePrimes
+Processing: DiagonalDifference
+Processing: MagicSquare
+Processing: BiggerGreater
+Processing: ModifiedKaprekarNumbers
+Processing: AbsolutePermutation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug

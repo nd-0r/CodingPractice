@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/ModifiedKaprekarNumbers.dir/src/ModifiedKaprekarNumbers.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/ModifiedKaprekarNumbers.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/ModifiedKaprekarNumbers.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/ClimbingLeaderboard.dir/src/ClimbingLeaderboard.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/ClimbingLeaderboard.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/ClimbingLeaderboard.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/MagicSquare.dir/src/MagicSquare.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/MagicSquare.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/MagicSquare.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/DiagonalDifference.dir/src/DiagonalDifference.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/DiagonalDifference.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/DiagonalDifference.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/BinarySearch.dir/src/BinarySearch.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/BinarySearch.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/BinarySearch.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/NonDivisibleSubset.dir/src/NonDivisibleSubset.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/NonDivisibleSubset.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/NonDivisibleSubset.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/QuickSort.dir/src/QuickSort.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/QuickSort.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/QuickSort.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/MakeBox.dir/src/MakeBox.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/MakeBox.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/MakeBox.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/AbsolutePermutation.dir/src/AbsolutePermutation.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/AbsolutePermutation.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/AbsolutePermutation.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/BiggerGreater.dir/src/BiggerGreater.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/BiggerGreater.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/BiggerGreater.cpp"
+},
+{
+  "directory": "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -std=gnu++11 -o CMakeFiles/TruncatablePrimes.dir/src/TruncatablePrimes.cpp.o -c /Users/andreworals/Documents/Dev/CodingPractice/c++/src/TruncatablePrimes.cpp",
+  "file": "/Users/andreworals/Documents/Dev/CodingPractice/c++/src/TruncatablePrimes.cpp"
+}
+]

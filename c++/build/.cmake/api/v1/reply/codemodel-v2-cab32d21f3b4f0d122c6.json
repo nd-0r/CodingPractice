@@ -1,0 +1,149 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodingPractice",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AbsolutePermutation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AbsolutePermutation-Debug-2c9a242d8dce05c068b4.json",
+					"name" : "AbsolutePermutation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiggerGreater::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiggerGreater-Debug-08d5fb50a0e4eca62e45.json",
+					"name" : "BiggerGreater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BinarySearch-Debug-c761a2a1d86bf78edba3.json",
+					"name" : "BinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ClimbingLeaderboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClimbingLeaderboard-Debug-9e850bd9f076ee562648.json",
+					"name" : "ClimbingLeaderboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DiagonalDifference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DiagonalDifference-Debug-be8f9aa6687331238635.json",
+					"name" : "DiagonalDifference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MagicSquare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MagicSquare-Debug-01c96af875b625121b27.json",
+					"name" : "MagicSquare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MakeBox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MakeBox-Debug-431e218a37f9fb4568de.json",
+					"name" : "MakeBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ModifiedKaprekarNumbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ModifiedKaprekarNumbers-Debug-c458c5c3898474bcac45.json",
+					"name" : "ModifiedKaprekarNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NonDivisibleSubset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NonDivisibleSubset-Debug-85c266891922df7efbca.json",
+					"name" : "NonDivisibleSubset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QuickSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QuickSort-Debug-a29adfe5f7419a446251.json",
+					"name" : "QuickSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TruncatablePrimes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TruncatablePrimes-Debug-be38bff1aa589c7cfee0.json",
+					"name" : "TruncatablePrimes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/andreworals/Documents/Dev/CodingPractice/c++/build",
+		"source" : "/Users/andreworals/Documents/Dev/CodingPractice/c++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

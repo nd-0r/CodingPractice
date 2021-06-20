@@ -1,0 +1,13 @@
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/ModifiedKaprekarNumbers.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/ClimbingLeaderboard.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/MagicSquare.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/DiagonalDifference.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/BinarySearch.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/NonDivisibleSubset.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/QuickSort.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/MakeBox.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/AbsolutePermutation.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/BiggerGreater.dir
+/Users/andreworals/Documents/Dev/CodingPractice/c++/cmake-build-debug/CMakeFiles/TruncatablePrimes.dir
