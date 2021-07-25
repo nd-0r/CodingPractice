@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /Users/andreworals/Documents/Dev/CodingPractice/c++/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/PE7.dir/all
 all: CMakeFiles/ModifiedKaprekarNumbers.dir/all
 all: CMakeFiles/ClimbingLeaderboard.dir/all
 all: CMakeFiles/MagicSquare.dir/all
@@ -81,6 +82,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/PE7.dir/clean
 clean: CMakeFiles/ModifiedKaprekarNumbers.dir/clean
 clean: CMakeFiles/ClimbingLeaderboard.dir/clean
 clean: CMakeFiles/MagicSquare.dir/clean
@@ -93,6 +95,32 @@ clean: CMakeFiles/AbsolutePermutation.dir/clean
 clean: CMakeFiles/BiggerGreater.dir/clean
 clean: CMakeFiles/TruncatablePrimes.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PE7.dir
+
+# All Build rule for target.
+CMakeFiles/PE7.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles --progress-num=19,20 "Built target PE7"
+.PHONY : CMakeFiles/PE7.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PE7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PE7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles 0
+.PHONY : CMakeFiles/PE7.dir/rule
+
+# Convenience name for target.
+PE7: CMakeFiles/PE7.dir/rule
+.PHONY : PE7
+
+# clean rule for target.
+CMakeFiles/PE7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/clean
+.PHONY : CMakeFiles/PE7.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ModifiedKaprekarNumbers.dir
@@ -257,7 +285,7 @@ CMakeFiles/NonDivisibleSubset.dir/clean:
 CMakeFiles/QuickSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuickSort.dir/build.make CMakeFiles/QuickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles --progress-num=19,20 "Built target QuickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles --progress-num=21,22 "Built target QuickSort"
 .PHONY : CMakeFiles/QuickSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +389,7 @@ CMakeFiles/BiggerGreater.dir/clean:
 CMakeFiles/TruncatablePrimes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TruncatablePrimes.dir/build.make CMakeFiles/TruncatablePrimes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TruncatablePrimes.dir/build.make CMakeFiles/TruncatablePrimes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles --progress-num=21,22 "Built target TruncatablePrimes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andreworals/Documents/Dev/CodingPractice/c++/build/CMakeFiles --progress-num=23,24 "Built target TruncatablePrimes"
 .PHONY : CMakeFiles/TruncatablePrimes.dir/all
 
 # Build rule for subdir invocation for target.

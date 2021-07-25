@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PE7
+
+# Build rule for target.
+PE7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PE7
+.PHONY : PE7
+
+# fast build rule for target.
+PE7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/build
+.PHONY : PE7/fast
+
+#=============================================================================
 # Target rules for targets named ModifiedKaprekarNumbers
 
 # Build rule for target.
@@ -475,6 +488,30 @@ src/NonDivisibleSubset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NonDivisibleSubset.dir/build.make CMakeFiles/NonDivisibleSubset.dir/src/NonDivisibleSubset.cpp.s
 .PHONY : src/NonDivisibleSubset.cpp.s
 
+src/PE7.o: src/PE7.cpp.o
+.PHONY : src/PE7.o
+
+# target to build an object file
+src/PE7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/src/PE7.cpp.o
+.PHONY : src/PE7.cpp.o
+
+src/PE7.i: src/PE7.cpp.i
+.PHONY : src/PE7.i
+
+# target to preprocess a source file
+src/PE7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/src/PE7.cpp.i
+.PHONY : src/PE7.cpp.i
+
+src/PE7.s: src/PE7.cpp.s
+.PHONY : src/PE7.s
+
+# target to generate assembly for a file
+src/PE7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PE7.dir/build.make CMakeFiles/PE7.dir/src/PE7.cpp.s
+.PHONY : src/PE7.cpp.s
+
 src/QuickSort.o: src/QuickSort.cpp.o
 .PHONY : src/QuickSort.o
 
@@ -540,6 +577,7 @@ help:
 	@echo "... MakeBox"
 	@echo "... ModifiedKaprekarNumbers"
 	@echo "... NonDivisibleSubset"
+	@echo "... PE7"
 	@echo "... QuickSort"
 	@echo "... TruncatablePrimes"
 	@echo "... src/AbsolutePermutation.o"
@@ -569,6 +607,9 @@ help:
 	@echo "... src/NonDivisibleSubset.o"
 	@echo "... src/NonDivisibleSubset.i"
 	@echo "... src/NonDivisibleSubset.s"
+	@echo "... src/PE7.o"
+	@echo "... src/PE7.i"
+	@echo "... src/PE7.s"
 	@echo "... src/QuickSort.o"
 	@echo "... src/QuickSort.i"
 	@echo "... src/QuickSort.s"

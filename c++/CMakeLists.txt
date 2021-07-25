@@ -16,7 +16,8 @@ list(APPEND SOURCE_FILES src/BinarySearch.cpp
                          src/MagicSquare.cpp
                          src/BiggerGreater.cpp
                          src/ModifiedKaprekarNumbers.cpp
-                         src/AbsolutePermutation.cpp)
+                         src/AbsolutePermutation.cpp
+                         src/PE7.cpp)
 
 foreach(src_file ${SOURCE_FILES})
   get_filename_component(executable_name ${src_file} NAME)

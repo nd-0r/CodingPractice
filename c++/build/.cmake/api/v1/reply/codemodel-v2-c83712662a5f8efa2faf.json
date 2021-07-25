@@ -24,7 +24,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -49,7 +50,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -58,77 +60,84 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AbsolutePermutation::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AbsolutePermutation-Debug-2c9a242d8dce05c068b4.json",
+					"jsonFile" : "target-AbsolutePermutation-Debug-4800fb0a30576c2de02f.json",
 					"name" : "AbsolutePermutation",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "BiggerGreater::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BiggerGreater-Debug-08d5fb50a0e4eca62e45.json",
+					"jsonFile" : "target-BiggerGreater-Debug-c0de0ec3dd929301c9ea.json",
 					"name" : "BiggerGreater",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BinarySearch-Debug-c761a2a1d86bf78edba3.json",
+					"jsonFile" : "target-BinarySearch-Debug-fcecc0de2dd172c96bcf.json",
 					"name" : "BinarySearch",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ClimbingLeaderboard::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ClimbingLeaderboard-Debug-9e850bd9f076ee562648.json",
+					"jsonFile" : "target-ClimbingLeaderboard-Debug-87e44757d2104739dc8a.json",
 					"name" : "ClimbingLeaderboard",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "DiagonalDifference::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DiagonalDifference-Debug-be8f9aa6687331238635.json",
+					"jsonFile" : "target-DiagonalDifference-Debug-731a55fbaf5a367f62bf.json",
 					"name" : "DiagonalDifference",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MagicSquare::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MagicSquare-Debug-01c96af875b625121b27.json",
+					"jsonFile" : "target-MagicSquare-Debug-24b64e7bb9cf78d00ac5.json",
 					"name" : "MagicSquare",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MakeBox::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MakeBox-Debug-431e218a37f9fb4568de.json",
+					"jsonFile" : "target-MakeBox-Debug-45d105779775835c68b8.json",
 					"name" : "MakeBox",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ModifiedKaprekarNumbers::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ModifiedKaprekarNumbers-Debug-c458c5c3898474bcac45.json",
+					"jsonFile" : "target-ModifiedKaprekarNumbers-Debug-10b8d2421b7d0cfae62d.json",
 					"name" : "ModifiedKaprekarNumbers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NonDivisibleSubset::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NonDivisibleSubset-Debug-85c266891922df7efbca.json",
+					"jsonFile" : "target-NonDivisibleSubset-Debug-1e20dc1285ac2191d58a.json",
 					"name" : "NonDivisibleSubset",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "PE7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PE7-Debug-e61f607bd62a7c38d622.json",
+					"name" : "PE7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "QuickSort::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-QuickSort-Debug-a29adfe5f7419a446251.json",
+					"jsonFile" : "target-QuickSort-Debug-1a41d3126709d7fd0261.json",
 					"name" : "QuickSort",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TruncatablePrimes::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TruncatablePrimes-Debug-be38bff1aa589c7cfee0.json",
+					"jsonFile" : "target-TruncatablePrimes-Debug-f59999c3b7d64cf94034.json",
 					"name" : "TruncatablePrimes",
 					"projectIndex" : 0
 				}
