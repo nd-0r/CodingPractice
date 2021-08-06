@@ -63,3 +63,8 @@ Temporary Items
 
 ### vim ###
 .swp
+
+### CMAKE ###
+cmake-build-debug
+build
+bin
