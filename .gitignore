@@ -62,7 +62,7 @@ Temporary Items
 .history
 
 ### vim ###
-.swp
+*.swp
 
 ### CMAKE ###
 cmake-build-debug
