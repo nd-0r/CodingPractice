@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project("CodingPractice")
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
@@ -23,7 +23,8 @@ list(APPEND SOURCE_FILES src/BinarySearch.cpp
                          src/ModifiedKaprekarNumbers.cpp
                          src/AbsolutePermutation.cpp
                          src/PE7.cpp
-                         src/PE3.cpp)
+                         src/PE3.cpp
+			 src/LRUCache.cpp)
 
 foreach(src_file ${SOURCE_FILES})
   get_filename_component(executable_name ${src_file} NAME)
