@@ -1,0 +1,193 @@
+use std::fmt;
+use std::error::Error;
+
+mod disjoint_set {
+    #[derive(Debug, Clone)]
+    enum DisjointSetError
+    {
+        NonexistentSet,
+        NotImplemented
+    }
+
+    impl std::fmt::Display for DisjointSetError
+    {
+        fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result
+        {
+            write!(f, "Set does not exist")
+        }
+    }
+
+    pub struct DisjointSet {
+        store: Vec<i32>
+    }
+
+    impl DisjointSet
+    {
+        pub fn new(size: usize) -> DisjointSet
+        {
+            DisjointSet { store: vec![-1; size] }
+        }
+
+        pub fn merge(&mut self, s1: u32, s2: u32) -> Result<(), DisjointSetError>
+        {
+            let s1 = self.find(s1 as i32)?;
+            let s2 = self.find(s2 as i32)?;
+
+            self.store[s2 as usize] = s1 as i32;
+
+            Ok(())
+        }
+
+        pub fn unmerge(&mut self, s: u32) -> Result<(), DisjointSetError>
+        {
+            if s as usize > self.store.len()
+            {
+                return Err(DisjointSetError::NonexistentSet);
+            }
+
+            self.store[s as usize] = -1;
+            Ok(())
+        }
+
+        pub fn same_set(&mut self, s1: u32, s2: u32) -> Result<bool, DisjointSetError>
+        {
+            Ok(self.find(s1 as i32)? == self.find(s2 as i32)?)
+        }
+
+        fn find(&mut self, s: i32) -> Result<u32, DisjointSetError>
+        {
+            if s < 0 || s > self.store.len() as i32
+            {
+                return Err(DisjointSetError::NonexistentSet);
+            }
+
+
+            let mut root = s;
+            let mut next = self.store[root as usize];
+            while next > 0
+            {
+                root = next;
+                next = self.store[root as usize];
+            }
+            self.store[s as usize] = root;
+
+            Ok(root as u32)
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use std::ops::Range;
+    use super::disjoint_set::DisjointSet;
+
+    fn test(ds: &mut DisjointSet, r1: Range<u32>, r2: Range<u32>, test_disjoint: bool)
+    {
+        for i in r1.into_iter()
+        {
+            for j in r2.into_iter()
+            {
+                assert!(!test_disjoint == ds.same_set(i, j).unwrap());
+            }
+        }
+    }
+
+    #[test]
+    fn create_disjoint_set() {
+        let mut ds = DisjointSet::new(10);
+        test(&mut ds, 0..10, 0..10, true);
+    }
+
+    #[test]
+    fn merge_first_last()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(0, 9);
+        assert!(ds.same_set(0, 9).unwrap());
+        for i in 1..8
+        {
+            assert!(!ds.same_set(0, i).unwrap());
+            assert!(!ds.same_set(9, i).unwrap());
+        }
+    }
+
+    #[test]
+    fn merge_non_singleton_sets()
+    {
+        let mut ds = DisjointSet::new(20);
+        let mut last_even = 4;
+        let mut last_odd = 5;
+        for i in 4..15
+        {
+            match i % 2 {
+                0 => {
+                    ds.merge(last_even, i);
+                    last_even = i;
+                },
+                _ => {
+                    ds.merge(last_odd, i);
+                    last_odd = i;
+                }
+            }
+        }
+        ds.merge(4, 5);
+        test(&mut ds, 0..4, 4..15, true);
+        test(&mut ds, 15..21, 4..15, true);
+        test(&mut ds, 4..15, 4..15, false);
+    }
+
+    #[test]
+    fn merge_double()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(0, 1);
+        ds.merge(1, 2);
+        test(&mut ds, 0..3, 3..10, true);
+        test(&mut ds, 0..3, 0..3, false);
+    }
+
+    #[test]
+    fn merge_triple()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(3, 5);
+        ds.merge(5, 7);
+        ds.merge(7, 9);
+        assert!(ds.same_set(3, 5).unwrap());
+        assert!(ds.same_set(3, 7).unwrap());
+        assert!(ds.same_set(3, 9).unwrap());
+        assert!(ds.same_set(5, 7).unwrap());
+        assert!(ds.same_set(5, 9).unwrap());
+        assert!(ds.same_set(7, 9).unwrap());
+    }
+
+    #[test]
+    fn unmerge_leaf()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(3, 4);
+        ds.merge(4, 5);
+        ds.merge(5, 6);
+        ds.unmerge(6);
+    }
+
+    #[test]
+    fn unmerge_intermediary()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(3, 4);
+        ds.merge(4, 5);
+        ds.merge(5, 6);
+        ds.unmerge(4);
+    }
+
+    #[test]
+    fn unmerge_root()
+    {
+        let mut ds = DisjointSet::new(10);
+        ds.merge(3, 4);
+        ds.merge(4, 5);
+        ds.merge(5, 6);
+        ds.unmerge(3);
+    }
+}
